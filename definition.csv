@@ -1,9 +1,9 @@
-name;type;description;placeholder;is_array;required;hidden;readonly;default_value;label;minimum;maximum;min_length;max_length;is_searchable
-TrainingData_Size;integer;Number of records in the training data;desc of userattrstr;FALSE;TRUE;FALSE;FALSE;0;TrainingData_Size;;;;;TRUE
-TrainingData_Ratio;string;Percentage of records in the training data;Percentage of records in the training data;FALSE;TRUE;FALSE;FALSE;0;TrainingData_Ratio;;;;;TRUE
-TestData_Size;integer;desc of userattrint;desc of userattrint;FALSE;TRUE;FALSE;FALSE;0;TestData_Size;;;;;FALSE
-TestData_Ratio;string;Percentage of records in the test data;Percentage of records in the test data;FALSE;TRUE;FALSE;FALSE;0;TestData_Ratio;;;;;TRUE
-Train_Class_Distributions;string;class distributions;class distributions;TRUE;TRUE;FALSE;FALSE;0;Train_Class_Distributions;;;;;FALSE
-Time_Range;string;The start and end date of the time series data;time range;FALSE;TRUE;FALSE;FALSE;0;Time_Range;;;;;TRUE
-Source;string;the data souce;data source;FALSE;TRUE;FALSE;FALSE;0;data_source;;;;;TRUE
-ModeType;string;the model framework;Model type;FALSE;TRUE;FALSE;FALSE;0;model_type;;;;;TRUE
+name,type,description,placeholder,is_array,required,hidden,readonly,default_value,label,minimum,maximum,min_length,max_length,is_searchable
+TrainingData_Size,integer,Number of records in the training data,desc of userattrstr,FALSE,TRUE,FALSE,FALSE,0,TrainingData_Size,,,,,TRUE
+TrainingData_Ratio,string,Percentage of records in the training data,Percentage of records in the training data,FALSE,TRUE,FALSE,FALSE,0,TrainingData_Ratio,,,,,TRUE
+TestData_Size,integer,desc of userattrint,desc of userattrint,FALSE,TRUE,FALSE,FALSE,0,TestData_Size,,,,,FALSE
+TestData_Ratio,string,Percentage of records in the test data,Percentage of records in the test data,FALSE,TRUE,FALSE,FALSE,0,TestData_Ratio,,,,,TRUE
+Train_Class_Distributions,string,class distributions,class distributions,TRUE,TRUE,FALSE,FALSE,0,Train_Class_Distributions,,,,,FALSE
+Time_Range,string,The start and end date of the time series data,time range,FALSE,TRUE,FALSE,FALSE,0,Time_Range,,,,,TRUE
+Source,string,the data souce,data source,FALSE,TRUE,FALSE,FALSE,0,data_source,,,,,TRUE
+ModeType,string,the model framework,Model type,FALSE,TRUE,FALSE,FALSE,0,model_type,,,,,TRUE
